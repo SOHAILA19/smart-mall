@@ -1,18 +1,13 @@
 // ignore_for_file: prefer_const_constructors, sort_child_properties_last
 
 import 'package:animate_do/animate_do.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-import 'firebase_options.dart';
 import 'logIN.dart';
 //import 'package:firebase_auth/firebase_auth.dart';
 
-void main() async {
+void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     home: HomePage0(),

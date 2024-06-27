@@ -2,8 +2,8 @@
 
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:parking/mycartScreen.dart';
 import 'package:parking/parkingScreen.dart';
+import 'package:parking/scanQr.dart';
 
 class HomePage extends StatefulWidget {
   //const ({Key? key}) : super(key: key);
@@ -249,7 +249,7 @@ class _HomePageState extends State<HomePage> {
                                                     context,
                                                     MaterialPageRoute(
                                                       builder: (context) =>
-                                                          MyCartBody(),
+                                                          ScanQR(),
                                                     ),
                                                   );
                                                 },
